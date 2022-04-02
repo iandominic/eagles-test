@@ -1,0 +1,17 @@
+.lore {
+    height: 100%;
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    .lore__container {
+        width: 90%;
+        margin: auto;
+
+        .lore__book {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

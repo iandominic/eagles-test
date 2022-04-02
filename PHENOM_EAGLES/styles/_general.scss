@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    
+    background-image: url('/img/bg-web.png');
+    background-size: cover;        
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button,
+input{
+    border: none;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+}
